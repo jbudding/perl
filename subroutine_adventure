@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+
+use 5.010;
+use utf8;
+
+sub getOtherInput {
+
+
+
+}
+
+
+getOtherInput "asdf";
