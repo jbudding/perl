@@ -3,17 +3,31 @@
 use 5.010;
 use utf8;
 
+
+say "What can i do?";
+
+chomp($action = <STDIN>);
+
 $i = 0;
 
 while ($i < 10) {
+	
+	if ($i == 0) {
 
+		say "I can't $action yet!!!";
 
-	say "I can do it " . $i . " times!";
+	} elsif ($i == 1) {
+	
+		say "I can $action $i time!";
 
+	} else {
+
+		say "I can $action  $i  times!";
+
+	}
+	
 	$i += 1;
+
 }
-
-
-
-
+	
 
