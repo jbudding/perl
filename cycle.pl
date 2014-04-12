@@ -1,4 +1,4 @@
-#!usr/bin/perl -w
+#/!usr/bin/perl -w
  
 use 5.018;
 use utf8;
